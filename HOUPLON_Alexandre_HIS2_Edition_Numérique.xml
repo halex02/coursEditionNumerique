@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Edition numérique d'une lettre au Comité d'histoire de la Seconde Guerre Mondiale de A. Vincent-Beaume</title>
+        <principal>
+          <forename>Alexandre</forename>
+          <surname>Houplon</surname>
+          <affiliation>Département LCA - Université de Lille</affiliation>
+        </principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Université de Lille</publisher>
+        <authority>Département LCA</authority>
+        <address>
+          <street>3 rue du Barreau</street>
+          <postCode>59650</postCode>
+          <settlement>Villeneuve d'Ascq</settlement>
+          <country>France</country>
+        </address>
+        <date when="2021-04-15">15 Avril 2021</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/legalcode">
+            <p>
+              Creative Commons Attribution-ShareAlike 4.0 International Public License
+            </p>
+          </licence>
+      </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <repository>Archives nationales</repository>
+            <idno>72AJ/87/V/Pièce 20</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="lettre-1" type="lettre">
+    <front>
+      <docTitle>
+        <titlePart>Lettre de <persName corresp="#pid-001">André Vincent-Beaume</persName> à <persName corresp="#pid-002">Michel Henri</persName></titlePart>
+      </docTitle>
+      <docDate when="1976-08-22">
+        1976, 22 Août, <placeName corresp="#lid-002">Valence</placeName>
+      </docDate>
+      <argument>
+        <p>
+          Lettre de <persName corresp="#pid-001">André Vincent-Beaume</persName>, correspondant du Comité d'Histoire de la Deuxième Guerre Mondiale,  à <persName corresp="#pid-002">Michel Henri</persName>, Secrétaire Général du dit Comité.
+          Dans cette lettre, il expose son enquête en cours à propos de l'opération "Montagnard" du maquis du Vercors et interroge le Secrétaire Général
+          à propos de certains points.
+        </p>
+      </argument>
+      <div type="tableau-tradition">
+        <msDesc>
+          <msIdentifier>
+            <repository>Archives nationales</repository>
+            <idno>72AJ/87/V/Pièce 20</idno>
+          </msIdentifier>
+        </msDesc>
+      </div>
+    </front>
+
+    <body>
+      <div>
+        <pb n="1" facs="FRAN_0086_043476_L-medium.jpg"/>
+        <opener>
+          <dateline rend="right"><placeName corresp="#lid-002">Valence</placeName>, <date when="1976-08-22">22 Août 1976</date></dateline>
+            <stamp rend="left" type="expediteur">
+              <address>
+              <persName rend="uppercase" corresp="#pid-001">A. VINCENT-BEAUME</persName>
+              <street>2, rue Belle-Image</street>
+              <placeName corresp="#lid-002"><hi rend="uppercase">VALENCE</hi> (Drôme)</placeName>
+              <addrLine>Tél. 43-28-15</addrLine>
+              </address>
+            </stamp>
+          <hi rend="center">à <persName corresp="#pid-002">Monsieur H. MICHEL</persName></hi>
+          <salute><persName corresp="#pid-002">Monsieur le Secrétaire Général</persName><choice><orig/><reg>,</reg></choice></salute>
+        </opener>
+        <p>
+          Je m'excuse de venir vous importuner en cette période de<lb/>
+          vacances, mais l'émission à la télévision "Ce jour-là j'en témoigne" m'ayant<lb/>
+          appris qu'actuellement vous êtes à <placeName corresp="#lid-001">Paris</placeName>, je me permets de venir vous poser<lb/>
+          deux questions :
+          <list>
+            <item n="1">1°) Connaissez-vous le texte du message qui ordonnait la mobilisation<lb/>
+            des compagnies civiles pour le Vercors<ref type="note-identification" target="#n-001" xml:id="a-001"/> ?</item>
+            <item n="2">2°) Savez-vous si ce message a été diffusé dans la nuit du <date when="1944-06-05">5</date> au <date when="1944-06-06">6 <choice><orig>juin</orig><reg>Juin</reg></choice> 1944</date> ?</item>
+          </list>
+        </p>
+        <p>
+          J'ai fait des enquêtes à ce sujet en interrogeant de nombreuses<lb/>
+          personnes. Elles n'ont pas pu ou pas voulu me répondre.
+        </p>
+        <p>
+          Je joins à ma lettre un double d'une <subst><del rend="strikethrough">lettre</del> <add place="inline">fiche</add></subst> que j'ai<lb/>
+          établie récemment. Je n'ignore pas que notre travail ne consiste<lb/>
+          pas à réfuter les erreurs que nous relevons dans les ouvrages sur la<lb/>
+          Résistance<ref type="note-historique" target="n-002" xml:id="a-002"/> <choice><orig/> <reg>,</reg></choice> mais comme c'est de la mobilisation des <choice><orig>Forces</orig><reg>forces</reg></choice> du Vercors<lb/>
+          le <date when="1944-06-09">9 juin 1944</date> qu'a dépendu l'échec de l'opération "Montagnards"<ref type="note-historique" target="n-003" xml:id="a-003"/><choice><orig/> <reg>,</reg></choice><lb/>
+          je pense que cette question doit être réglée avec le maximum de<lb/>
+          précisions.
+        </p>
+        <p>
+          Je continue à travailler à la mise au point de la<lb/>
+          chronologie et je vous aviserai dès que j'aurai terminé<choice><orig/> <reg>.</reg></choice>
+        </p>
+        <p>
+          Grâce à <persName corresp="#pid-003"><abbr><expan>M<ex>onsieur</ex></expan></abbr>. Didier-Perrin</persName> j'ai pu avoir<choice><orig/> <reg>,</reg></choice> à <placeName corresp="#lid-003">Die</placeName>, au<lb/>
+          début du mois d'Aout<choice><orig/> <reg>,</reg></choice> un entretien avec des anciens des
+          <pb n="2" facs="FRAN_0086_043477_L-medium.jpg"/>
+          différentes unités qui se trouvaient dans le secteur de <placeName corresp="#lid-004"><choice><orig rend="uppercase">VASSIEUX</orig><reg>Vassieux</reg></choice></placeName><lb/>
+          les <date when="1944-07-21">21</date>-<date when="1944-07-22">22</date>-<date when="1944-07-23">23 Juillet 1944</date> (Affaire des troupes aéroportées)<choice><orig/> <reg>.</reg></choice><lb/>
+          Des rapports doivent m'être adressés. J'en ferai parvenir<lb/>
+          un double au Comité<ref type="note-identification" target="n-004" xml:id="a-004"/>.
+        </p>
+        <closer>
+          <salute>
+            Veuillez agréer, <persName corresp="#pid-002">Monsieur le Secrétaire Général</persName>,<lb/>
+            l'assurance de mes sentiments dévoués.
+          </salute>
+          <signed rend="center"><persName corresp="#pid-001">A Vincent Beaume</persName></signed>
+        </closer>
+      </div>
+    </body>
+
+    <back>
+      <div type="index-nominum">
+        <head>Index des noms de personne</head>
+        <listPerson>
+          <person xml:id="pid-001">
+            <persName>
+              <surname>Vincent-Beaume</surname>
+              <forename>André</forename>
+            </persName>
+            <occupation>Correspondant pour la Drôme du Comité d'Histoire de la Deuxième Guerre Mondiale</occupation>
+            <birth>1896</birth>
+            <death>1985</death>
+          </person>
+          <person xml:id="pid-002">
+            <persName>
+              <surname>Michel</surname>
+              <forename>Henri</forename>
+            </persName>
+            <occupation>Secrétaire Général du Comité d'Histoire de la Deuxième Guerre Mondiale</occupation>
+            <birth>1907</birth>
+            <death>1986</death>
+          </person>
+          <person xml:id="pid-003">
+            <persName>
+              <surname>Didier-Perrin</surname>
+              <forename>Louis</forename>
+            </persName>
+            <occupation>Maquisard du Vercors pendant la Deuxième Guerre Mondiale</occupation>
+            <birth>1923</birth>
+            <death>2015</death>
+          </person>
+        </listPerson>
+      </div>
+      <div type="index-locorum">
+        <head>Index des noms de lieu</head>
+        <listPlace>
+          <place xml:id="lid-001">
+            <placeName>
+              <settlement type="commune">Paris</settlement>
+            </placeName>
+            <location>
+              <district type="departement">Paris</district>
+              <country>France</country>
+              <region>Ile-de-France</region>
+            </location>
+          </place>
+          <place xml:id="lid-002">
+            <placeName>
+              <settlement type="commune">Valence</settlement>
+            </placeName>
+            <location>
+              <district type="departement">Drôme</district>
+              <country>France</country>
+              <region>Auvergne-Rhône-Alpes</region>
+            </location>
+          </place>
+          <place xml:id="lid-003">
+            <placeName>
+              <settlement type="commune">Die</settlement>
+            </placeName>
+            <location>
+              <district type="departement">Drôme</district>
+              <country>France</country>
+              <region>Auvergne-Rhône-Alpes</region>
+            </location>
+          </place>
+          <place xml:id="lid-004">
+            <placeName>
+              <settlement type="commune">Vassieux-en-Vercors</settlement>
+            </placeName>
+            <location>
+              <district type="departement">Drôme</district>
+              <country>France</country>
+              <region>Auvergne-Rhône-Alpes</region>
+            </location>
+          </place>
+        </listPlace>
+      </div>
+      <div type="notes">
+        <note type="note-explicative" target="#a-001" xml:id="n-001">Massif montagneux des Alpes situé entre les départements de la Drôme et de l'Isère.</note>
+        <note type="note-historique" target="#a-002" xml:id="n-002">Ensemble des réseaux clandestins ayant poursuivi la lutte contre l'Axe pendant l'Occupation de la France par l'Allemagne.</note>
+        <note type="note-historique" target="#a-003" xml:id="n-003">Opération montée par les Alliés et les Maquisards du Vercors. Des forces armées
+        parachutés sur le massif devait harceler l'armée allemande en profitant du fait que le Vercors constituait une place-force naturelle.</note>
+        <note type="note-explicative" target="#a-004" xml:id="n-004">Comité d'Histoire de la Deuxième Guerre Mondiale</note>
+      </div>
+    </back>
+  </text>
+</TEI>
